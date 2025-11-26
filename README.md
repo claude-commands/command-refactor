@@ -14,7 +14,7 @@ ln -s <clone-path>/command-refactor/refactor.md ~/.claude/commands/refactor.md
 
 ## Usage
 
-```
+```text
 /refactor src/utils/helpers.ts   # Refactor a file
 /refactor processPayment         # Refactor a specific function
 /refactor src/api/               # Analyze directory for opportunities

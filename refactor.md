@@ -12,11 +12,13 @@ Display usage information and ask for input:
 **Usage:** `/refactor <target>`
 
 **Examples:**
+
 - `/refactor src/utils/helpers.ts` - Refactor a file
 - `/refactor processPayment` - Refactor a specific function
 - `/refactor src/api/` - Analyze a directory for refactoring opportunities
 
 **Workflow:**
+
 1. Analyze code for refactoring opportunities
 2. Identify code smells and complexity issues
 3. Propose specific refactoring actions
@@ -82,6 +84,7 @@ Perform AI-guided refactoring on the specified code with safety checks.
 3. **Check Test Coverage**
 
    Before any changes:
+
    ```bash
    # Find related test files
    # Run tests to ensure baseline passes
@@ -94,6 +97,7 @@ Perform AI-guided refactoring on the specified code with safety checks.
 4. **Propose Refactoring Plan**
 
    Present to user:
+
    ```markdown
    ## Refactoring Plan for `processPayment()`
 
@@ -146,6 +150,7 @@ Perform AI-guided refactoring on the specified code with safety checks.
 6. **Verify After Each Change**
 
    After each refactoring step:
+
    ```bash
    # Run tests
    npm test  # or go test, pytest, etc.
